@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="TwentyChannelsPOCT" ></dbname>
+    <version value="5" ></version>
+    <list>
+        <mapping class="com.example.twentychannelspoct.bean.SaveItem"></mapping>
+    </list>
+</litepal>

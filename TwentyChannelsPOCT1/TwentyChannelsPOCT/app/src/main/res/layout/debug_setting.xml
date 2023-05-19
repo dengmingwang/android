@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <Button-->
+<!--            android:id="@+id/Btn_ScanID"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="设置扫条码距离"-->
+<!--            android:textSize="24sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Btn_Turntableto"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="转盘定位移动"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/Btn_ScanID"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/Btn_ScanID" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Btn_Scantest"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="扫描定位移动"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/Btn_Turntableto"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/Btn_Turntableto" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/Btn_Lostcardto"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="丢卡移动步数"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/Btn_Scantest"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/Btn_Scantest" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/Edi_ScanID"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:inputType="number"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/Btn_ScanID"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/Edi_Scantest"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:inputType="number"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/Btn_Scantest"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/Btn_Scantest"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/Btn_Scantest" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/Edi_Turntableto"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:inputType="number"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/Btn_Turntableto"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/Btn_Turntableto"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/Btn_Turntableto" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/Edi_Lostcard"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:inputType="number"-->
+<!--            android:textSize="25sp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/Btn_Lostcardto"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/Btn_Lostcardto"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/Btn_Lostcardto" />-->
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

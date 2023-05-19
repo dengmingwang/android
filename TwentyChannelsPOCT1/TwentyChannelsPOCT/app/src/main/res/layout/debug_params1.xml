@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-216dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Btn_Turntable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="4dp"
+                android:text="转盘初始化"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Btn_Moveforward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="4dp"
+                android:text="扫面向前初始化"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Turntable"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Btn_Moveback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="扫描向后初始化"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Moveforward"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Moveforward" />
+
+            <Button
+                android:id="@+id/Btn_Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="4dp"
+                android:text="test"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/VoltageValue"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Btn_ReadVoltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="4dp"
+                android:text="读取电压值"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Moveforward"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/Btn_Readcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="读取条码值"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="@+id/Btn_ReadVoltage"
+                app:layout_constraintStart_toStartOf="@+id/Btn_ReadVoltage"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_ReadVoltage" />
+
+            <Button
+                android:id="@+id/Btn_Printf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="打印"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Test"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Test" />
+
+            <Button
+                android:id="@+id/Btn_Reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="系统复位"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Turntable"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Turntable" />
+
+            <Button
+                android:id="@+id/Btn_Testbegin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="设置检测起始位置"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Reset"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Reset" />
+
+            <Button
+                android:id="@+id/Btn_Lostcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="丢卡"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Swi_Light"
+                app:layout_constraintTop_toBottomOf="@+id/Swi_Light" />
+
+            <Button
+                android:id="@+id/Btn_Pushcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="丢卡复位"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Lostcard"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Lostcard" />
+
+            <Button
+                android:id="@+id/Btn_GetPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="获取扫码位置和检测窗起点"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Turntableto"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Turntableto"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/Btn_ScanID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="设置扫条码距离"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Edi_Testbegin"
+                app:layout_constraintStart_toEndOf="@+id/Edi_Testbegin"
+                app:layout_constraintTop_toTopOf="@+id/Edi_Testbegin"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/Btn_Turntableto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="转盘定位移动"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_Testbegin"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Testbegin" />
+
+            <Button
+                android:id="@+id/Btn_Scantest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="扫描定位移动"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_ScanID"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_ScanID" />
+
+            <Button
+                android:id="@+id/Btn_Lostcardto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:text="丢卡移动步数"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/CurTest_Position"
+                app:layout_constraintStart_toEndOf="@+id/CurTest_Position" />
+
+            <Button
+                android:id="@+id/Btn_Cardin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:text="插卡"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/Edi_Scantest"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_Pushcard" />
+
+            <EditText
+                android:id="@+id/Edi_Scantest"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:inputType="number"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_Scantest"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Scantest"
+                app:layout_constraintTop_toTopOf="@+id/Btn_Scantest" />
+
+            <EditText
+                android:id="@+id/Edi_Turntableto"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:inputType="number"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_Turntableto"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Turntableto"
+                app:layout_constraintTop_toTopOf="@+id/Btn_Turntableto" />
+
+            <Spinner
+                android:id="@+id/Edi_Testbegin"
+                android:layout_width="163dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_Testbegin"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Testbegin"
+                app:layout_constraintTop_toTopOf="@+id/Btn_Testbegin"/>
+
+<!--            <EditText-->
+<!--                android:id="@+id/Edi_Testbegin"-->
+<!--                android:layout_width="163dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:inputType="number"-->
+<!--                android:textSize="25sp"-->
+<!--                app:layout_constraintBottom_toBottomOf="@+id/Btn_Testbegin"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/Btn_Testbegin"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/Btn_Testbegin" />-->
+
+            <EditText
+                android:id="@+id/Edi_ScanID"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_ScanID"
+                app:layout_constraintStart_toEndOf="@+id/Btn_ScanID"
+                app:layout_constraintTop_toTopOf="@+id/Btn_ScanID" />
+
+            <EditText
+                android:id="@+id/Edi_Lostcardto"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:inputType="number"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_Lostcardto"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Lostcardto"
+                app:layout_constraintTop_toTopOf="@+id/Btn_Lostcardto" />
+
+            <Switch
+                android:id="@+id/Swi_Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="4dp"
+                android:text="照明灯"
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Test"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/CodeValue"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:inputType="number"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_Readcode"
+                app:layout_constraintStart_toEndOf="@+id/Btn_Readcode"
+                app:layout_constraintTop_toTopOf="@+id/Btn_Readcode" />
+
+            <TextView
+                android:id="@+id/VoltageValue"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="0"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_ReadVoltage"
+                app:layout_constraintStart_toEndOf="@+id/Btn_ReadVoltage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/CurScan_Position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:text="0"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/Btn_GetPosition"
+                app:layout_constraintStart_toEndOf="@+id/Btn_GetPosition"
+                app:layout_constraintTop_toTopOf="@+id/Btn_GetPosition"
+                app:layout_constraintVertical_bias="0.545" />
+
+            <TextView
+                android:id="@+id/CurTest_Position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="92dp"
+                android:text="0"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="@+id/CurScan_Position"
+                app:layout_constraintStart_toEndOf="@+id/CurScan_Position"
+                app:layout_constraintTop_toTopOf="@+id/CurScan_Position"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="上传数据："
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="@+id/Btn_GetPosition"
+                app:layout_constraintTop_toBottomOf="@+id/Btn_GetPosition" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="790dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="20dp"
+                android:text="TextView"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView12"
+                app:layout_constraintStart_toEndOf="@+id/textView12"
+                app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

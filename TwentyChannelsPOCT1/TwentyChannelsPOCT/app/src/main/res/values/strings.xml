@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">TwentyChannelsPOCT</string>
+
+    <!--初始化界面进度条-->
+    <string name="finished">完成</string>
+    <string name="defaultText">0%</string>
+
+    <!--主界面菜单-->
+    <string name="MainMenu">主菜单</string>
+    <string name="SingleTest">测试</string>
+    <string name="BatchTest">批量测试</string>
+    <string name="historyData">历史查询</string>
+    <string name="QualityControl">质控测试</string>
+    <string name="Project">项目</string>
+    <string name="Setting">系统设置</string>
+    <string name="Data">日期</string>
+    <string name="Time">时间</string>
+
+    <!--    主测试界面布局文件-->
+    <string name="SampleID">样本号：</string>
+    <string name="RunningNumber">流水号：</string>
+    <string name="AdvancedInformation">高级信息</string>
+
+    <string name="AdvInfo">高级信息</string>
+    <string name="Name">姓名:</string>
+    <string name="age">年龄:</string>
+    <string name="Gender">性别:</string>
+    <string name="Confirm">确认</string>
+    <string name="Cancel">取消</string>
+    <string name="immediate">即时</string>
+    <string name="sampleType">类 型:</string>
+    <string name="timedTest">定时</string>
+    <string name="readIDCard">读ID卡</string>
+    <string name="test">测 试</string>
+    <string name="printResult">打 印</string>
+    <string name="pause">暂 停</string>
+    <string name="testMode">测试模式</string>
+    <string name="subID">子项ID</string>
+    <string name="subName">子项目名</string>
+    <string name="subResult">子项目结果</string>
+    <string name="subReference">参考范围</string>
+    <string name="testTime">测试时间</string>
+    <string name="index">卡位:</string>
+    <string name="Comfirm">确认</string>
+    <string name="inputPrompt">输入样本号</string>
+
+
+    <string name="ShowTime">2022-7-8</string>
+
+
+    <!--    查询界面所用的字符-->
+    <!--   模板时间-->
+    <string name="btn_Confirm">确认</string>
+    <string name="btn_printf">打印</string>
+    <string name="btn_export">导出</string>
+    <string name="btn_delete">删除</string>
+    <string name="Btn_upload">上传</string>
+    <string name="btn_FuzzyQuery">模糊查询</string>
+    <string name="projectName">项目：</string>
+    <string name="RowData">原始数据</string>
+    <string name="Classfication">分类统计</string>
+    <string name="historyView">历史查看</string>
+    <string name="history1_index">流水号</string>
+    <string name="history1_sampleNumber">样本号</string>
+    <string name="history1_barcodeValue">条码值</string>
+    <string name="history1_projectName">项目名称</string>
+    <string name="history1_concentration">浓度值</string>
+    <string name="history1_unit">单位</string>
+    <string name="history1_sample_type">样本类型</string>
+    <string name="history1_time">测试时间</string>
+    <string name="history1_name">姓名</string>
+    <string name="history1_gender">性别</string>
+    <string name="history1_age">年龄</string>
+    <string name="history1_page">  </string>
+    <string name="quickSearch">快速查询</string>
+    <string name="SwitchOff">Off</string>
+    <string name="SwitchON">On</string>
+    <string name="Next">下一项</string>
+    <string name="Save">保存</string>
+    <string name="PORT">端口：</string>
+    <string name="semicolon">:</string>
+    <string name="distanceIP">远程IP:</string>
+    <string name="LocalIP">本地IP:</string>
+    <string name="BaudRate">波特率:</string>
+    <string name="SerialPort">串口参数</string>
+    <string name="Seleted">当前使用：</string>
+    <string name="lisWord">测试完自动传送到LIS</string>
+    <string name="udpParams">UDP参数</string>
+    <string name="wifiSingle">当前扫描到的WIFI信号</string>
+    <string name="wifiName">WIFI名称</string>
+    <string name="wifi_bssid">WIFI BSSID</string>
+    <string name="wifi_level">WIFI LEVEL</string>
+    <string name="CurveTest">测试曲线</string>
+    <string name="RemoteTest">远程连接测试</string>
+    <string name="IPAddress">请输入URLi地址</string>
+    <string-array name="labels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+
+</resources>
